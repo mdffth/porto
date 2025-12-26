@@ -1,0 +1,30 @@
+@media only screen and (max-width: 400px) {
+    .headline-main {
+        font-size: 32px;
+        font-weight: 800;
+    }
+    .pp-main{
+        width: 100%;
+        object-fit: cover;
+
+    }
+    .slogan{
+        font-size: 14px;
+    }
+    .text-experience{
+        font-size: 24px;
+    }
+    .exp-nama{
+        width: 100%;
+    }
+    .exp-desc{
+        width: 100%;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    .headline-main {
+        font-size: 48px;
+        font-weight: 800;
+    }
+} */

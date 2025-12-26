@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fairuz Daffa</title>
+    <link href="plugins/bootstrap53/bootstrap.min.css" rel="stylesheet">
+    <link href='fonts.googleapis.com/css?family=Comfortaa:400,700' ; rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="plugins/custom/main.css" rel="stylesheet">
+    <link href="plugins/custom/main-mob.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif !important;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif !important;
+            background-color: #f9fafc;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+
+        /* Headline utama */
+        .headline-main {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #0b3d91;
+            letter-spacing: -0.5px;
+        }
+
+        /* Subheadline */
+        .slogan {
+            font-weight: 400;
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* Gambar profil */
+        .pp-main {
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .pp-main:hover {
+            transform: scale(1.03);
+        }
+
+        /* Tombol umum */
+        .btn {
+            font-weight: 500;
+            border-radius: 10px;
+            padding: 10px 18px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 18px rgba(18, 96, 204, 0.3);
+        }
+
+        /* Section title (Education, Portfolio, Experience) */
+        .text-experience {
+            font-size: 2rem;
+            color: #0b3d91;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-left: 5px solid #1260cc;
+            padding-left: 12px;
+        }
+
+        /* Divider elegan */
+        hr {
+            border: none;
+            border-top: 2px solid #e2e8f0;
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Detail text sekunder */
+        .text-secondary {
+            color: #4b5563 !important;
+        }
+
+        /* Carousel style */
+        .owl-carousel img {
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .owl-carousel img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Section reveal animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.7s ease-in-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        .footer hr {
+            width: 80%;
+            margin: 30px auto;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        /* Responsif halus */
+        @media (max-width: 768px) {
+            .headline-main {
+                font-size: 2.2rem;
+            }
+
+            .text-experience {
+                font-size: 1.6rem;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container mt-5">
+            <div class="col-12">
+                <div class="text-secondary fs-6">HELLO WORLD !</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container ">
+
+            <div class="col-12 d-flex row mb-5 reveal">
+                <span class="headline-main mt-3">I am Fairuz Daffa</span>
+                <span class="fs-3 mt-3">Malang-based as <span class="fw-bold px-2 text-white" style="background: rgb(18,96,204);
+                    background: linear-gradient(128deg, rgba(18,96,204,1) 0%, rgba(41,197,246,1) 79%);">Web
+                        Developer</span></span>
+                <span class=" slogan text-secondary">Copy, Paste, and Learn</span>
+            </div>
+
+            <div class="pt-md-5 d-flex row reveal">
+                <div class="col-md-4">
+                    <img src="assets/pp.png" class="pp-main" alt="Muhammad Fairuz Daffa Athallah">
+                </div>
+                <div class="col-md-5 ">
+                    <div class="mx-md-5">
+                        <span class="fs-4">
+                            Mahasiswa Sistem Informasi Bisnis Politeknik Negeri Malang
+                        </span>
+                        <p class="fs-5 mt-3 mt-md-5 fw-light">
+                            Saya adalah mahasiswa Sistem Informasi Bisnis Politeknik Negeri Malang dengan minat besar
+                            pada pengembangan perangkat lunak, khususnya aplikasi web dan pengelolaan data. Saya
+                            memiliki pengalaman dalam pengembangan proyek berbasis Laravel, mulai dari backend,
+                            pengelolaan database MySQL, hingga integrasi sistem dengan fokus pada kebutuhan pengguna.
+                            <br>
+                            <br>
+
+                            Saya juga tertarik mendalami bidang Data Analytics, mencakup pengolahan, analisis, dan
+                            visualisasi data untuk mendukung pengambilan keputusan, dengan pengalaman menggunakan Excel,
+                            Power BI, dan Google Colab. Saya siap terus belajar, beradaptasi, dan berkontribusi secara
+                            profesional melalui kombinasi kemampuan teknis dan pemahaman bisnis yang saya miliki.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-5 mt-md-0">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://drive.google.com/file/d/1repaVdaml0ZSn-vZY1qiqbv7_7-tiTZb/view?usp=sharing"
+                            class="btn text-white w-100 w-md-75" style="background: rgb(18,96,204); 
+                        background: linear-gradient(128deg, rgba(18,96,204,1) 0%, rgba(41,197,246,1) 79%);"
+                            target="blank"><i class="fa fa-file"></i> Link to My CV</a>
+                    </div>
+                    <div class="mt-4">
+                        <span class="fs-5 ">Find Me Online</span>
+                        <div class="flex-row mt-3">
+                            <a class="text-dark" style="text-decoration: none"
+                                href="https://www.linkedin.com/in/fairuz-daffa/" target="blank">
+                                <img src="assets/linkedin.png" alt="" height="18px" style="object-fit: cover">
+                                Linkedin
+                            </a>
+                        </div>
+                        <div class="flex-row mt-2">
+                            <a class="text-dark" style="text-decoration: none"
+                                href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=athallahdaffa936@gmail.com"
+                                target="blank">
+                                <img src="assets/email.png" alt="" height="20px" style="object-fit: cover">
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 pt-5 mb-0 mb-md-5 reveal">
+                <span class="text-experience fw-bold ">Education</span>
+                <div class="mb-4 mb-md-5"></div>
+                <hr>
+                </hr>
+
+                <div class="row mt-4 mt-md-5">
+                    <div class="col-md-4 row">
+                        <span class="fw-bold fs-5">Politeknik Negeri Malang</span>
+                        <span class="text-secondary fs-5">(2023 - Sekarang)</span>
+                    </div>
+                    <div class="col-md-8 row mt-4 mt-md-0">
+                        <span class="fw-bold fs-5 mb-2">Sistem Informasi Bisnis</span>
+                        <span class="text-secondary fs-5">
+                            - Aktif terlibat dalam pengembangan TracerStudy dan SIMapres
+                            Mahasiswa menggunakan Laravel & MySQL.
+                        </span>
+                        <span class="text-secondary fs-5">
+                            - Mendalami Business Intelligence dengan Power BI dan Microsoft Excel untuk pengolahan,
+                            analisis, dan visualisasi data.
+                        </span>
+                        <span class="text-secondary fs-5">
+                            - Memahami konsep jaringan komputer serta melakukan simulasi dan konfigurasi jaringan
+                            menggunakan Cisco dan GNS3.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row mt-4 mt-md-5">
+                    <div class="col-md-4 row">
+                        <span class="fw-bold fs-5">SMK Negeri 4 Malang</span>
+                        <span class=" text-secondary fs-5">(2020 - 2023)</span>
+                    </div>
+                    <div class="col-md-8 row mt-4 mt-md-0">
+                        <span class="fw-bold fs-5 mb-2">Teknik Komputer dan Jaringan</span>
+                        <span class="text-secondary fs-5">- Mempelajari dasar-dasar perangkat keras komputer dan
+                            jaringan (LAN, WAN, TCP/IP)</span>
+                        <span class="text-secondary fs-5">- Berpengalaman dalam konfigurasi jaringan (Router, Switch,
+                            Mikrotik, Cisco)</span>
+                        <span class="text-secondary fs-5">- Mempelajari instalasi dan manajemen sistem operasi (Windows
+                            & Linux)</span>
+                        <span class="text-secondary fs-5">- Mempelajari pemrograman dasar (HTML)</span>
+                        <span class="text-secondary fs-5">- Final project: Desain dan Implementasi Sistem
+                            Jaringan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 pt-5 mb-0 mb-md-5 reveal">
+                <span class="text-experience fw-bold ">Portfolio</span>
+                <div class="mb-4 mb-md-5"></div>
+                <hr>
+                </hr>
+                <div class="row mt-4 mt-md-5">
+                    <div class="owl-carousel">
+                        <div>
+                            <img class="card-carousel-1" data-id="1" src="assets/tc.PNG" alt="Tracer Study"
+                                style="object-fit: cover;" width="200px" height="200px">
+                        </div>
+                        <div>
+                            <img class="card-carousel-2" data-id="2" src="assets/simapres.jpg" alt="SIMapres"
+                                style="object-fit: cover;" width="200px" height="200px">
+                        </div>
+                        <div>
+                            <img class="card-carousel-3" data-id="3" src="assets/DS2.PNG"
+                                alt="Dasboard Lokasi" style="object-fit: cover;" width="200px" height="200px">
+                        </div>
+                        <div>
+                            <img class="card-carousel-4" data-id="4" src="assets/DS1.PNG" alt="Dashboard Penjualan"
+                                style="object-fit: cover;" width="200px" height="200px">
+                        </div>
+                        <div>
+                            <img class="card-carousel-5" data-id="5" src="assets/sik3.PNG" alt="Sistem Informasi K3"
+                                style="object-fit: cover;" width="200px" height="200px">
+                        </div>
+                    </div>
+
+                    <div class="detail-carousel-1 mt-5" id="detail-1">
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <img src="assets/tc.PNG" alt="Tracer Study" style="object-fit: cover;"
+                                    width="100%" height="300px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="my-4">
+                                    <h4 class="fw-bold">Tracer Study</h4>
+                                    <span class="text-muted">Manajement System</span>
+                                    <p class="text-secondary pt-2">
+                                        Tracer Study adalah jembatan antara kampus dan para alumninya. Melalui survei
+                                        ini, kampus dapat melacak bagaimana perjalanan karier lulusan setelah
+                                        menyelesaikan pendidikan. Lebih dari sekadar formalitas, Tracer Study menjadi
+                                        alat penting untuk mengevaluasi kualitas pendidikan, memperbaiki kurikulum, dan
+                                        memastikan bahwa apa yang diajarkan benar-benar relevan dengan kebutuhan dunia
+                                        kerja.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row detail-carousel-2 mt-5" id="detail-2">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <img src="assets/simapres.jpg" alt="SIMapres" style="object-fit: cover;"
+                                    width="100%" height="300px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="my-4">
+                                    <h4 class="fw-bold">SIMapres</h4>
+                                    <span class="text-muted">Sistem Informasi Mahasiswa Berprestasi</span>
+                                    <p class="text-secondary pt-2">
+                                        SIMapres adalah sistem yang memiliki fungsi untuk mencatat mahasiswa-mahasiswa berprestasi, memiliki sistem perankingan 
+                                        yang bertujuan untuk meningkatkan daya saing dan penghargaan terhadapa mahasiswa berprestasi. Sistem ini juga menyediakan informasi
+                                        tentang lomba yang dapat diikuti.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row detail-carousel-3 mt-5" id="detail-3">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <img src="assets/DS2.PNG" alt="Dasboard Lokasi" style="object-fit: cover;"
+                                    width="100%" height="300px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="my-4">
+                                    <h4 class="fw-bold">Dashboard Lokasi</h4>
+                                    <span class="text-muted">Dasboard Penjualan di Setiap Lokasi</span>
+                                    <p class="text-secondary pt-2">
+                                        Dashboard ini memiliki fokus utama pada visualisasi dataset terkait penjualan
+                                        yang menekankan pada suatu lokasi tertentu. Pada
+                                        baris pertama terdapat slicer yang digunakan untuk memilih metode penjualan,
+                                        tahun dan produk tertentu, selanjutnya
+                                        baris kedua berisi tentang informasi umum seperti jumlah unit, total penjualan,
+                                        profit, pada baris
+                                        ketiga terdapat visualisasi menggunakan line chart yang merepresentasikan total
+                                        penjualan setiap bulan dan peta untuk mengetahui lokasi mana saja
+                                        yang berkontribusi terhadap penjualan. Pada baris terakhir terdapa tiga
+                                        visualisasi yaitu bar chart1(Total penjualan produk), bar chart2(Unit terjual),
+                                        Donut chart(Penjualan unit disetiap region).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row detail-carousel-5 mt-5" id="detail-5">
+
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <img src="assets/sik3.PNG" alt="Sistem Informasi K3" style="object-fit: cover;"
+                                    width="100%" height="300px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="my-4">
+                                    <h4 class="fw-bold">Sistem Informasi K3</h4>
+                                    <span class="text-muted">Manajement K3</span>
+                                    <p class="text-secondary pt-2">
+                                        Sistem ini adalah panduan, rujukan, regulasi, kebijakan, prosedur dalam mengimplementasi K3 
+                                        pada pabrik pengolahan limbah. Terdapat banyak menu pada sistem ini diantaranya Profile Perusahaan, Landasan Hukum,
+                                        Lingkungan Kerja, Keselamatan kerja, P3K, APD, Manajemen Resiko, dan Struktur K3.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row detail-carousel-4 mt-5" id="detail-4">
+
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <img src="assets/DS1.PNG" alt="Dashboard Penjualan" style="object-fit: cover;"
+                                    width="100%" height="300px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="my-4">
+                                    <h4 class="fw-bold">Dashboard Penjualan</h4>
+                                    <span class="text-muted">Dasboard Peforma Penjualan</span>
+                                    <p class="text-secondary pt-2">
+                                        Dashboard ini memiliki fokus utama pada visualisasi dataset terkait penjualan.
+                                        Pada
+                                        baris pertama terdapat slicer yang digunakan untuk memilih tahun dan produk
+                                        tertentu, selanjutnya
+                                        baris kedua berisi tentang informasi umum seperti jumlah unit, pendapatan,
+                                        profit, dan pertumbuhan, pada baris
+                                        ketiga terdapat visualisasi menggunakan line chart yang merepresentasikan
+                                        peforma pendapatan dan bar chart(Frekuensi Unit),
+                                        Donut chart(Performa setiap region). Pada baris terakhir terdapat 2 visualisasi
+                                        yaitu pertumbuhan penjualan dan frekuensi unit
+                                        pendapatan, profit di setiap produk.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-12 pt-5 mb-0 mb-md-5 reveal">
+                <span class="text-experience fw-bold ">Experience</span>
+                <div class="mb-4 mb-md-5"></div>
+                <hr>
+                </hr>
+                <div class="row mt-4 mt-md-5">
+                    <div class="col-md-4 row">
+                        <span class="fw-bold fs-5">CV. Visi Energi Abadi</span>
+                        <span class=" text-secondary fs-5">(Maret 2022 - Desember 2022)</span>
+                    </div>
+                    <div class="col-md-8 row mt-4 mt-md-0">
+                        <span class="fw-bold fs-5 mb-2">Search Engine Optimization(Backlink Specialist)</span>
+                        <span class="text-secondary fs-5">- Mencatat, memonitor, dan memverifikasi >20.000 data
+                            aktivitas backlink secara akurat menggunakan
+                            Microsoft Excel untuk mendukung keberhasilan strategi SEO perusahaan, backlink placement di
+                            100 website setiap hari. </span>
+                    </div>
+                </div>
+                <div class="pt-5 d-flex justify-content-center reveal">
+                    <p class="text-experience fw-bold mt-5">Interested to hire me or work with me?</p>
+                </div>
+                <div class="pt-3 pb-5 d-flex justify-content-center reveal">
+                    <a class="btn text-white" style="background: rgb(18,96,204);
+                background: linear-gradient(128deg, rgba(18,96,204,1) 0%, rgba(41,197,246,1) 79%);"
+                        href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=athallahdaffa936@gmail.com"
+                        target="blank">Email Me</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer mb-5">
+            <div class="mt-5"></div>
+            <hr>
+            </hr>
+            <div class="container ">
+                <div class="mt-5"></div>
+                <span class="mt-5">All rights reserved. © Muhammad Fairuz Daffa Athallah 2025.</span>
+            </div>
+        </div>
+
+        <script src="plugins/bootstrap53/bootstrap.bundle.min.js"></script>
+        <script src="plugins/jquery-3.6.0/dist/jquery.min.js"></script>
+        <script src="plugins/jquery-3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="plugins/owlcarousel/dist/owl.carousel.js"></script>
+        <script src="plugins/owlcarousel/dist/owl.carousel.min.js"></script>
+        <script src="custom.js"></script>
+        <script>
+            function reveal() {
+                var reveals = document.querySelectorAll(".reveal");
+                for (var i = 0; i < reveals.length; i++) {
+                    var windowHeight = window.innerHeight;
+                    var elementTop = reveals[i].getBoundingClientRect().top;
+                    var elementVisible = 150;
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveals[i].classList.add("active");
+                    } else {
+                        reveals[i].classList.remove("active");
+                    }
+                }
+            }
+            window.addEventListener("scroll", reveal);
+            reveal();
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body
+{
+    font-family: 'Poppins';
+  scroll-behavior: smooth;
+
+}
+.headline-main{
+    font-size: 78px;
+    font-weight: 800;
+}
+.slogan{
+    font-size: 18px;
+}
+.pp-main{
+    width: 100%;
+    object-fit: cover;
+    height: 85%;
+}
+.text-experience{
+    font-size: 32px;
+}
+.exp-nama{
+    width: 30%;
+}
+.exp-desc{
+    width: 70%;
+}
+.reveal{
+    transform: translateY(50px);
+    transition: 2s all ease;
+    opacity: 0;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+.revealLeft{
+    transform: translateX(50px);
+    transition: 2s all ease;
+    opacity: 0;
+}
+.revealLeft.active{
+    transform: translateX(0);
+    opacity: 1;
+}
